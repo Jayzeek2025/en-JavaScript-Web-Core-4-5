@@ -28,43 +28,45 @@
 
             <p>There is no charge or obligation upon registration</p>
 
-            <div class="button__group">
-
-               <button class="button button__facebook"><img
-                     src="https://raw.githubusercontent.com/SchoiceHabsida/css-task-english/20f6a4bf19fb2e8d1ed712f2a8abd5b1b248248b/img/facebook.svg"
-                     alt="facebook" />Register with Facebook</button>
-
-               <button class="button button__linkedin"><img
-                     src="https://raw.githubusercontent.com/SchoiceHabsida/css-task-english/20f6a4bf19fb2e8d1ed712f2a8abd5b1b248248b/img/linkedin.svg"
-                     alt="linkedin" />Register with Linkedin</button>
-
-            </div><!--button group-->
-
-            <div class="divider">
-
-               <span>OR</span>
-
-            </div>
-
          </div><!--right register closing-->
+
+         <div class="button__group">
+
+            <button class="button button__facebook"><img
+                  src="https://raw.githubusercontent.com/SchoiceHabsida/css-task-english/20f6a4bf19fb2e8d1ed712f2a8abd5b1b248248b/img/facebook.svg"
+                  alt="facebook" />Register with Facebook</button>
+
+            <button class="button button__linkedin"><img
+                  src="https://raw.githubusercontent.com/SchoiceHabsida/css-task-english/20f6a4bf19fb2e8d1ed712f2a8abd5b1b248248b/img/linkedin.svg"
+                  alt="linkedin" />Register with Linkedin</button>
+
+         </div><!--button group-->
+
+         <div class="divider">
+
+            <span>OR</span>
+
+         </div>
+
+
 
          <div class="right__input">
 
             <div class="input__contact">
 
-            
+
                <input class="input input__field" type="email" value="gus.goodwin@gmail.com" placeholder=" " />
                <label class="contact__label">Email</label>
 
-               </div>
+            </div>
 
-               <div class="input__contact">
+            <div class="input__contact">
 
-            
-               <input class="input input__field" type="password" placeholder=" "/>
+
+               <input class="input input__field" type="password" placeholder=" " />
                <label class="contact__label">Phone</label>
 
-               </div>
+            </div>
 
          </div><!--right input closing-->
 
@@ -72,7 +74,7 @@
 
             <form>
 
-               <label>What type of investor are you?</label>
+               <label class="form-header">What type of investor are you?</label>
 
                <p>select the type of investor you are below</p>
 
@@ -82,7 +84,7 @@
                      <input class="input input__radio" type="radio" id="input__individual" name="investor_type"
                         value="individual" checked />
 
-                     <label for="input__individual">Individual</label>
+                     <label for="input__individual">Individual <img  class="input__image"src="img/173-1737471_infobox-info-icon-svg-info-icon-svg-clipart.png"></label>
 
 
                      <p class="input__p">I am a natural person investing on my own behalf as a sole owner,joint
@@ -97,7 +99,7 @@
                      <input class="input input__radio" type="radio" id="input__business" name="investor_type"
                         value="business" />
 
-                     <label for="input__business">Business</label>
+                     <label for="input__business">Business<img  class="input__image"src="img/173-1737471_infobox-info-icon-svg-info-icon-svg-clipart.png"> </label>
 
                      <p class="input__p">I am a business entity (corporation, partnership, LLC, or other legal entity)
                         investing through
@@ -111,7 +113,7 @@
 
                      <input class="input input__radio" type="radio" id="input__ira" name="investor_type" value="ira" />
 
-                     <label for="input__ira">IRA</label>
+                     <label for="input__ira">IRA <img  class="input__image"src="img/173-1737471_infobox-info-icon-svg-info-icon-svg-clipart.png"></label>
 
                      <p class="input__p">I am an Individual Retirement Account (IRA) investing through a custodian or
                         trustee on behalf of
@@ -127,7 +129,7 @@
                      <input class="input input__radio" type="radio" id="input__trust" name="investor_type"
                         value="trust" />
 
-                     <label for="input__trust">Trust</label>
+                     <label for="input__trust">Trust <img  class="input__image"src="img/173-1737471_infobox-info-icon-svg-info-icon-svg-clipart.png"></label>
 
                      <p class="input__p">I am a trust entity investing through designated trustees on behalf of trust
                         beneficiaries, with
@@ -144,9 +146,9 @@
 
          <div class="right_agree">
 
-            <form>
+            <form class="agree__form">
 
-               <label>
+               <label class="agree">
 
                   <input type="checkbox" name="agree" value="yes" />I agree to the terms and receiving notifications
                   from
